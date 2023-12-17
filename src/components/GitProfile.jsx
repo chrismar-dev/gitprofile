@@ -171,24 +171,24 @@ const GitProfile = ({ config }) => {
                         avatarRing={!sanitizedConfig.themeConfig.hideAvatarRing}
                         resume={sanitizedConfig.resume}
                       />
+                      
                       <Details
                         profile={profile}
                         loading={loading}
                         github={sanitizedConfig.github}
                         social={sanitizedConfig.social}
                       />
+                      
                       <Skill
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      <Experience
-                        loading={loading}
-                        experiences={sanitizedConfig.experiences}
-                      />
+
                       <Education
                         loading={loading}
                         education={sanitizedConfig.education}
                       />
+                      
                       <Certification
                         loading={loading}
                         certifications={sanitizedConfig.certifications}
@@ -197,21 +197,20 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
-                      <Project
-                        repo={repo}
+                    <Experience
                         loading={loading}
-                        github={sanitizedConfig.github}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                      />
+                        experiences={sanitizedConfig.experiences}
+                    />
                       <ExternalProject
                         loading={loading}
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <Blog
+                      <Project
+                        repo={repo}
                         loading={loading}
+                        github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
-                        blog={sanitizedConfig.blog}
                       />
                     </div>
                   </div>
