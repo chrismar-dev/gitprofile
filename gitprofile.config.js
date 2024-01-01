@@ -88,20 +88,20 @@ const config = {
       description:
         'A .NET 6 REST API that follows CRUD operations. Click to see github code and a demo',
       imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png',
-      link: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3A.NET_Core_Logo.svg&psig=AOvVaw3TCEOh1whQBqratyBzMLEP&ust=1702909049535000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCy89rUloMDFQAAAAAdAAAAABAD',
+      link: 'https://github.com/chrismar-dev/.NET6-REST-API',
     },
     {
       title: 'In Progress C++ OpenGL Graphics/Game Engine',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl: 'https://www.opengl.org/img/opengl_logo.png',
+      link: 'https://github.com/chrismar-dev/OpenGL-Engine',
     },
     {
       title: 'In Progress Serverless AWS Management Tool',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://miro.medium.com/v2/resize:fit:600/1*W02WEmR0_JeJXfLWN2zHwQ.png',
       link: 'https://example.com',
     },
   ],
